@@ -1,0 +1,10 @@
+Github
+git clone (paste link)
+ls (access all file)
+ls -a (access hidden file)
+git add file.name (add a file)
+git add . (all file add)
+git commit -m "any massage"
+git push origin main
+cd .. (got to main directory)
+mkdir file.name (create a new folder)
