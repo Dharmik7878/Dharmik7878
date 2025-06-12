@@ -1,0 +1,13 @@
+fp=open("myfile.txt","w")
+name=input("ENTER YOUR NAME:")
+fp.write("Your name is:")
+fp.write(name)
+fp.write("\n")
+age=input("ETER YOUR AGE:")
+fp.write("Your age is:")
+fp.write(age)
+fp.close()
+
+fp=open("myfile.txt","r")
+print(fp.read())
+fp.close()

@@ -1,0 +1,7 @@
+fp=open("myfirstfile.txt","w")
+name=input("Enter the name:")
+city=input("Enter the city:")
+fp.write(name)
+fp.write("\n")
+fp.write(city)
+fp.close()

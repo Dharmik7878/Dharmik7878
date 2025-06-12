@@ -1,0 +1,10 @@
+fp=open("append.txt","w")
+name=input("Enter your name:")
+fp.write(name)
+fp.close()
+
+fp=open("append.txt","a")
+age=input("Enter your age:")
+fp.write("\n")
+fp.write(age)
+fp.close()
