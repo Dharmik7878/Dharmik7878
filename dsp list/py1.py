@@ -1,0 +1,14 @@
+sg=['bhavnagar','rajkot','amareli','jamnagar','junagadh','gir-somnath']
+#ng=['sabarkatha','banskatha','mahesana','kachh']
+#dg=['surat','valsad','vapi','dharamapur']
+print(sg)
+print(len(sg))
+print(sg[3])
+sg[4]="ahmedabad"
+print(sg)
+print(sg[-2])
+print(sg[2:5])
+sg.append("gift-city")
+print(sg)
+sg.insert(6,"and")
+print(sg)
