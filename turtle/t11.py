@@ -1,0 +1,20 @@
+import turtle
+turtle.setup(800,600)
+window=turtle.Screen()
+window.title("Wellcome turtle programming")
+t=turtle.Turtle()
+t.forward(300)
+t.left(235)
+t.forward(100)
+t.left(305)
+t.forward(190)
+t.left(303)
+t.forward(98)
+t.left(300)
+t.forward(200)
+t.left(207)
+t.forward(180)
+
+
+t.hideturtle()
+window.exitonclick()
