@@ -1,0 +1,5 @@
+print("1")
+print("01")
+print("101")
+print("0101")
+print("10101")
